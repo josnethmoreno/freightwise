@@ -814,7 +814,7 @@ p {
 .nav-menu {
   -webkit-backdrop-filter: blur(75px);
   backdrop-filter: blur(75px);
-  mix-blend-mode: color-dodge;
+  mix-blend-mode: difference;
   background-color: #33333359;
   border: 1px solid #ffffff40;
   border-radius: 20vh;
