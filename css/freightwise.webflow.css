@@ -385,7 +385,15 @@ p {
 }
 
 .h2.max {
-  width: 42.9%;
+  position: relative;
+  width: 30ch;
+}
+
+.h2.max span {
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .h3 {
@@ -423,6 +431,18 @@ p {
   display: flex;
   position: absolute;
   inset: 0%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.fondo-hero video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .8s;
 }
 
 .footer {
@@ -658,6 +678,11 @@ p {
   grid-auto-columns: 1fr;
   align-items: stretch;
   display: grid;
+}
+
+._55.grid .flex {
+  display: flex;
+  gap: 1rem;
 }
 
 .div-block-50 {
