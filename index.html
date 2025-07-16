@@ -496,7 +496,7 @@
       setInterval(updateClock, 60000);
 
       // Loop para h2 y videos
-      function fadedTransition(elements, activeClass = 'active', interval = 3000) {
+      function fadedTransition(elements, activeClass = 'active', interval = 5000) {
         let current = 0;
         elements.forEach((el, i) => {
           el.style.opacity = (i === 0) ? 1 : 0;
